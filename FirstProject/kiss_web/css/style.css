@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 24.99%;
+}
+.col-4 {
+    width: 33.32%;
+}
+.col-5 {
+    width: 41.65%;
+}
+.col-6 {
+    width: 49.98%;
+}
+.col-7{
+    width:58.3%;
+}
+.col-8 {
+    width: 66.64%;
+}
+.col-9 {
+    width: 74.97%;
+}
+.col-10 {
+    width: 83.3%;
+}
+.col-11 {
+    width: 91.63%;
+}
+.col-12 {
+    width: 100%;
+}
+body{
+    background-image: url("/images/kiss_bg.jpg");
+    background-size: 1920px 1000px;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    margin-left: 146px;
+    margin-right: 146px;
+}
+h1{ 
+    font-family: 'Die Nasty', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-logo{
+    background-image: url("/images/kiss.png");
+    background-size: 180px 90px;
+    background-position: center;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+.mouth{
+    background-color: white;
+    border-radius: 50px;
+}
+.shopping-cart{
+    margin-top: 5px;
+}
+nav{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 30px 15px;
+    font-family: 'Die Nasty', sans-serif;
+                                                
+}
+.nav1 a:hover{
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nav1 ul{
+    display: inline-flex;
+}
+.nav1 ul li{
+    list-style:none ;
+    border-right: 1px solid white;
+}
+.nav1 ul li:last-child{
+    border-right: none;
+}
+.nav2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 30px 15px;                                     
+}
+.nav2 ul{
+    display: inline-flex;
+}
+.nav2 ul li{
+    list-style:none ;
+    border-right: 1px solid white;
+}
+.nav2 ul li:last-child{
+    border-right: none;
+}
+main{
+    background-color: white;
+    height: 1070px;
+    margin-top: 1000px;
+}
+#first{
+    display: flex;
+}
+.card-last-concert{
+    height: 430px;
+    margin-left: 146px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.card-last-concert h1{
+    margin-bottom: 20px;
+}
+.card-last-concert a{
+    text-decoration: none;
+    color: black;
+}
+.card-facebook{
+    height: 430px;
+    margin-right: 146px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.card-facebook h1{
+    margin-bottom: 20px;
+    color: black;
+}
+.card-facebook a{
+    text-decoration: none;
+    color: black;
+}
+#second{
+    display: flex;
+}
+.card-instagram{
+    height: 550px;
+    margin-left: 146px;
+    margin-right: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-instagram img{
+    margin-top: 20px;
+}
+.card-instagram a{
+    text-decoration: none;
+    color: black;
+}
+.third-photo{
+    margin-bottom: 10px;
+}
+.card-twitter{
+    height: 400px;
+    margin-right: 140px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card-twitter a{
+    text-decoration: none;
+    color: black;
+}.card-twitter h1{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    height: 225px;
+    display: flex;
+    margin-top: 200px;
+}
+.footer-left{
+    height: 80%;
+    margin-left: 146px;
+    margin-top: 20px;
+}
+.footer-left h1{
+    color: rgb(221, 202, 202);
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.footer-left a{
+    color: white;
+    opacity: 0.7;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Die Nasty', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer-left a:hover{
+    color: red;
+    opacity: 1;
+}
+.footer-right{
+    height: 80%;
+    justify-content: end;
+    margin-right: 146px;
+    margin-top: 40px;
+}
+.footer-right-top{
+    display: flex;
+}
+.footer-right-bot{
+    display:flex;
+}
+.fb{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.ig{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.tt{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.apple{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.amazon{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.spotify{
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.mail{
+    margin-top: 20px;
+    margin-left: 35px;
+}

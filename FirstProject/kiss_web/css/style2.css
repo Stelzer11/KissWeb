@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 24.99%;
+}
+.col-4 {
+    width: 33.32%;
+}
+.col-5 {
+    width: 41.65%;
+}
+.col-6 {
+    width: 49.98%;
+}
+.col-7{
+    width:58.3%;
+}
+.col-8 {
+    width: 66.64%;
+}
+.col-9 {
+    width: 74.97%;
+}
+.col-10 {
+    width: 83.3%;
+}
+.col-11 {
+    width: 91.63%;
+}
+.col-12 {
+    width: 100%;
+}
+body{
+    background-image: url('https://thumbs.gfycat.com/AlarmingRaggedChick-size_restricted.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    display: flex;
+    margin-left: 146px;
+    margin-right: 146px;
+}
+h1{ 
+    font-family: 'Die Nasty', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-logo{
+    background-image: url("/images/kiss.png");
+    background-size: 180px 90px;
+    background-position: center;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+.mouth{
+    background-color: white;
+    border-radius: 50px;
+}
+.shopping-cart{
+    margin-top: 5px;
+}
+nav{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 30px 15px;
+    font-family: 'Die Nasty', sans-serif;                                           
+}
+.nav1 a:hover{
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.current-selected-site {
+    color: red;
+}
+.nav1 ul{
+    display: inline-flex;
+}
+.nav1 ul li{
+    list-style:none ;
+    border-right: 1px solid white;
+}
+.nav1 ul li:last-child{
+    border-right: none;
+}
+.nav2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 30px 15px;                                     
+}
+.nav2 ul{
+    display: inline-flex;
+}
+.nav2 ul li{
+    list-style:none ;
+    border-right: 1px solid white;
+}
+.nav2 ul li:last-child{
+    border-right: none;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1628;
+    font-family: 'Die Nasty', sans-serif;
+}
+.item-container h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main-news__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    width: 1628px;
+    height: 680px;
+    background-image: url("/images/End_of_the_world_tour.png");
+    background-repeat: no-repeat;
+}
+.main-news__container--text {
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 500px;    
+    background-color: #000000de;
+    font-family: 'Arial', sans-serif;
+}
+.main-news__container--text a {
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Die Nasty', sans-serif;
+}
+.main-news__container--text p {
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.old-news__container {
+    gap: 14px;
+    display: flex;
+    margin-top: 14px;
+    width: 1628px;
+    margin-left: 150px;
+    height: 305px;
+}
+.old-news__container--item{
+    display: flex;
+    width: 807px;
+}
+.old-news__container--news {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000da;
+    color: white;
+    text-overflow: ellipsis;
+    width: 265px; 
+    height: 305px;
+}
+.old-news__container--news h2{
+    margin-bottom:  10px;
+    font-size: 20px;
+}
+.old-news__container--news p{    
+    padding-left: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.tour-news__container {
+    display: flex;
+    width: 1628px;
+    height: 100px;
+    border: black solid 5px;
+}
+
+.tour-news__container--info {
+    color: white;
+    display:flex;
+    align-items: center;
+    padding-left: 14px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(30, 30, 30), rgb(32, 32, 32));
+    background-size: 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 5px 5px, 0px 0px;
+    font-family: 'Arial', sans-serif;
+    border-right: #000000dd solid 1px;
+}
+.tour-news__container--info p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
